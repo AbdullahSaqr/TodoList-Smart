@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Drag & Drop TODO List</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="drag.js" defer></script>
+  <script src="todo.js" defer></script>
+</head>
+<body>
+  <header role="banner" class="board">
+    <img id="logo-main" src="aroowdown.png" width="500" alt="Logo Thing main logo">
+   <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+     <div class="container-fluid">
+       <div class="navbar-header">
+       </div>
+       <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+       </div>
+     </div>
+   </nav>
+   
+   </header>
+  <div class="board">
+    <form id="todo-form">
+      <input type="text" placeholder="New TODO..." id="todo-input" />
+      <button type="submit">Add +</button>
+      <button type="reset" id="reset-button">Reset</button>
+    </form>
+    <div class="lanes">
+      <div class="swim-lane" id="todo-lane">
+        <h3 class="heading">Todo</h3>
+      </div>
+      <div class="swim-lane" id="progress-lane">
+        <h3 class="heading">Progress</h3>
+      </div>
+      <div class="swim-lane" id="done-lane">
+        <h3 class="heading">Done</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright notice -->
+  <div class="copyright">
+    &copy; 2023 Abdullah Mohammed Saqr. All rights reserved.
+  </div>
+</body>
+</html>
+
+
+<!-- Created By Dev Abdullah Mohammed Saqr -->
+
+
+
+
+
